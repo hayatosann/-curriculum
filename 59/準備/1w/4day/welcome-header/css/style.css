@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+header {
+  background-color: #1dace0;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon img {
+  width: 60px;
+}
+
+.icon {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.icon strong {
+  color: #eae51f;
+}
+
+.headser-right {
+  display: flex;
+  margin-right: 60px;
+  align-items: center;
+  height: 100%;
+}
+
+.headser-right li {
+  margin-right: 20px;
+}

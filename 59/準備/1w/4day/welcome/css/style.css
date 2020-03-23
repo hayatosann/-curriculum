@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+header {
+  background-color: #1dace0;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon img {
+  width: 60px;
+}
+
+.icon {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.icon strong {
+  color: #eae51f;
+}
+
+.headser-right {
+  display: flex;
+  margin-right: 60px;
+  align-items: center;
+  height: 100%;
+}
+
+.headser-right li {
+  margin-right: 20px;
+}
+
+.welcome {
+  height: 500px;
+  background: url(../img/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.guideline {
+  font-size: 28px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.guideline li {
+  margin-top: 16px;
+}
+
+.btn-group {
+  margin-top: 60px;
+}
+
+.btn{
+  width: 170px;
+  height: 55px;
+  cursor: pointer;
+  color: white;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.register{
+  background-color: rgba(29, 172, 224, .5);
+  border: 3px solid rgba(29, 172, 224, .5);
+}
+
+.login {
+  background-color: rgba(236, 227, 35, .5);
+  border: 3px solid rgba(236, 227, 35, .5);
+}
+
+.register:hover{
+  background-color: rgb(29, 172, 224);
+  border: 3px solid rgb(29, 172, 224);
+}
+
+.login:hover {
+  background-color: rgb(236, 227, 35);
+  border: 3px solid rgb(236, 227, 35);
+}
